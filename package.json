@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build": "npx expo export:web",
-    "vercel-build": "npm install --legacy-peer-deps && npx expo export --platform web"
+    "vercel-build": "npx expo export --platform web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@expo/webpack-config": "^19.0.1",
     "@types/react": "~19.0.10",
     "typescript": "~5.8.3"
   },
