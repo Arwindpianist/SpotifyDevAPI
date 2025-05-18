@@ -14,7 +14,7 @@ export default function AuthScreen({ navigation }: any) {
   // Now set for production deployment at spotifydevapi.arwindpianist.store
   const getRedirectUri = () =>
     Platform.select({
-      web: process.env.EXPO_PUBLIC_SPOTIFY_REDIRECT_URI || 'https://spotifydevapi.arwindpianist.store/auth/callback',
+      web: process.env.EXPO_PUBLIC_SPOTIFY_REDIRECT_URI || 'https://spotifydevapi.arwindpianist.store/#/auth/callback',
       default: 'exp://192.168.1.6:8081/--/auth/callback',
     });
 

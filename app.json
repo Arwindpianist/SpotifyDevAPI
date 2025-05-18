@@ -28,8 +28,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "8943d047-0636-4e49-a22b-9637ddf654ae"
+        "projectId": "60ea5d70-4b66-4894-91b0-e175922fdda4"
       }
-    }
+    },
+    "owner": "arwindpianist"
   }
 }
